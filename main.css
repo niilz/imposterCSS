@@ -1,0 +1,47 @@
+.all {
+    display: flex;
+    margin: 0 100px;
+}
+
+.circle {
+    width: 130px;
+    height: 130px;
+    background-color: lightblue;
+    border: 3px solid blue;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.others {
+    margin: 100px 0 0 0 ;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+}
+
+.you {
+    margin: 260px 0 0 140px;
+    background: transparent;
+    z-index: 2;
+}
+
+.reality {
+    position: absolute;
+    margin: 320px 0 0 210px; 
+    z-index: 1;
+}
+
+p {
+    margin: 30px 0 0 15px;
+    font-family: Helvetica, sans-serif
+}
+
+.others p {
+    margin: 100px 0 0 53px;
+}
+
+.reality p {
+    margin-top: 60px;
+    text-align: center;
+}
